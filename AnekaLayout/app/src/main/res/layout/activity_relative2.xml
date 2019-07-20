@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@color/colorAccent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ringlayer.anekalayout.Relative2Activity">
+
+    <!-- START FIRST ROW -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rel_1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@color/biru_skype"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.ringlayer.anekalayout.Relative2Activity">
+    </RelativeLayout>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_toRightOf="@+id/rel_1"
+        android:id="@+id/rel_2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@color/hitam1"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.ringlayer.anekalayout.Relative2Activity">
+    </RelativeLayout>
+    <!-- EOF FIRST ROW -->
+
+
+
+    <!-- START SECOND ROW -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_below="@+id/rel_1"
+        android:id="@+id/rel_3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@color/ijo_gelap"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.ringlayer.anekalayout.Relative2Activity">
+    </RelativeLayout>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rel_4"
+        android:layout_below="@+id/rel_2"
+        android:layout_toRightOf="@+id/rel_3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@color/ijo1"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.ringlayer.anekalayout.Relative2Activity">
+    </RelativeLayout>
+
+
+    <!-- EOF SECOND ROW -->
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rel_4"
+        android:layout_below="@+id/rel_3"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:background="@color/biru_skype"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.ringlayer.anekalayout.Relative2Activity">
+
+        <Button
+            android:id="@+id/back2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="61dp"
+            android:layout_marginStart="61dp"
+            android:text="Back" />
+    </RelativeLayout>
+</RelativeLayout>

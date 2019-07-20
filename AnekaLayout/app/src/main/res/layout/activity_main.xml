@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:background="@color/colorPrimary"
+        tools:context="com.ringlayer.anekalayout.MainActivity">
+        <Space
+        android:layout_width="1dp"
+        android:layout_height="70dp"/>
+        <TableRow android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <Button
+                android:id="@+id/lin1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorAccent"
+                android:background="@color/black"
+                android:text="Linear 1"
+                android:layout_weight="1"
+                android:layout_column="1"
+                />
+
+            <Button
+                android:id="@+id/lin2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorAccent"
+                android:background="@color/black"
+                android:text="Linear 2"
+                android:layout_weight="1"
+                android:layout_column="2"
+                />
+        </TableRow>
+        <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+        <TableRow android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <Button
+                android:id="@+id/rel1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorAccent"
+                android:background="@color/black"
+                android:text="Relative 1"
+                android:layout_weight="1"
+                android:layout_column="1"
+                />
+
+            <Button
+                android:id="@+id/rel2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorAccent"
+                android:background="@color/black"
+                android:text="Relative 2"
+                android:layout_weight="1"
+                android:layout_column="2"
+                />
+        </TableRow>
+         <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+        <TableRow android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <Button
+                android:id="@+id/tb_constrain"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorAccent"
+                android:background="@color/black"
+                android:text="Constraint"
+                android:layout_weight="1"
+                android:layout_column="1"
+                />
+
+            <Button
+                android:id="@+id/tb_table"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorAccent"
+                android:background="@color/black"
+                android:text="Table"
+                android:layout_weight="1"
+                android:layout_column="2"
+                />
+        </TableRow>
+
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+    <TableRow android:weightSum="2"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <Button
+            android:id="@+id/tb_constrain2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/colorAccent"
+            android:background="@color/black"
+            android:text="Constraint 2"
+            android:layout_weight="1"
+            android:layout_column="1"
+            />
+
+        <Space
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" android:layout_weight="1" />
+    </TableRow>
+</TableLayout>

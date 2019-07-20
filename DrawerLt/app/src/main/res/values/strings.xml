@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DrawerLt</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <!-- fragment texts -->
+    <string name="fragmen_cam">Welcome to Camera Page</string>
+    <string name="fragmen_gal">Welcome to Gallery Page</string>
+    <string name="fragmen_slide">Welcome to Slide Page</string>
+</resources>

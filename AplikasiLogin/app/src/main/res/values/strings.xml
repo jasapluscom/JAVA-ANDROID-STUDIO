@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AplikasiLogin</string>
+    <string name="memberarea">Member Area</string>
+    <string name="url">http://192.168.43.140/login/login.php</string>
+</resources>

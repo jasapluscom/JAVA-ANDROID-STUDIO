@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AnekaLayout</string>
+
+    <string name="title1">News 1</string>
+    <string name="title2">News 2</string>
+
+    <string name="title3">News 3</string>
+    <string name="title4">News 4</string>
+
+</resources>

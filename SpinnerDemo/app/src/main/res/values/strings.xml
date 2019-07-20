@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SpinnerDemo</string>
+    <string name="pilih">pilih</string>
+
+    <string-array name="array_pilihan">
+        <item>Kue</item>
+        <item>Cake</item>
+        <item>Susu</item>
+    </string-array>
+</resources>

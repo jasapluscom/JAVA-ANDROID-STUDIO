@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:id="@+id/background"
+        android:gravity="center"
+        tools:context="com.ringlayer.aplikasilogin.MemberArea">
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+    <TextView
+        android:id="@+id/desc"
+        android:background="@color/colorAccent"
+        android:text="@string/memberarea"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        />
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+</LinearLayout>
