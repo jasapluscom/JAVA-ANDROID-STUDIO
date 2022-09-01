@@ -1,5 +1,5 @@
 # JAVA-ANDROID-STUDIO
 
-Materi Training Java Android Studio 
+Java Android Studio Source Codes & PDF
 
 www.jasaplus.com
